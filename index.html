@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Hackers Resume" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      display: flex;
+      flex-direction: column; /* Setzen Sie die Ausrichtung auf Spalten, damit die Elemente gestapelt werden */
+      align-items: center; /* Zentrieren Sie die Elemente horizontal */
+      text-align: center; /* Zentrieren Sie den Text */
+    }
+    img {
+      width: 150px; /* Ändern Sie die Breite nach Bedarf */
+      height: auto; /* Automatische Anpassung der Höhe, um das Seitenverhältnis beizubehalten */
+    }
+    .profile-info {
+      display: flex;
+      flex-direction: column; /* Stapeln Sie die Elemente in der Spalte */
+      align-items: center; /* Zentrieren Sie die Elemente horizontal */
+      margin-top: 1px; /* Abstand zwischen dem Textbereich und den Profilinformationen */
+    }
+    .profile-details {
+      margin-top: 1px; /* Abstand zwischen Bild und Profilinformationen */
+    }
+    .text-sections {
+      display: flex;
+      justify-content: space-between; /* Platzieren Sie die Sections in einer Reihe mit Platz dazwischen */
+      width: 70%; /* Breite des Textbereichs anpassen */
+      margin-top: 20px; /* Abstand zwischen dem Textbereich und den Profilinformationen */
+    }
+    .text-section {
+      width: 48%; /* Breite der Textsections anpassen */
+      text-align: left; /* Links ausrichten */
+    }
+  </style>
+</head>
+<body>
+  <h1><u>Hacker's Resume</u></h1>
+
+  <div class="profile-info">
+    <a href="./About me.html"><img src="./assets/anonymous-pic.jpg" alt="About me Pic" /></a>
+    <div class="profile-details">
+      <h2>Fiktiver Name</h2>
+      <p>Email: fictional.name@example.com</p>
+      <p>Phone: +1 (555) 987-6543</p>
+      <p>Address: 456 Cyber Street, Hackerville</p>
+    </div>
+  </div>
+
+  <div class="text-sections">
+    <div class="text-section">
+      <h2>Educational Requirements:</h2>
+      <ul>
+          <li>Bachelor's degree in Computer Science, Cybersecurity, or a related field.</li>
+          <li>Certifications such as CISSP, CEH, or equivalent are advantageous.</li>
+      </ul>
+
+      <h2>Professional Experience:</h2>
+      <ul>
+          <li>Minimum 3-5 years of experience in Ethical Hacking and Cybersecurity.</li>
+          <li>Experience in conducting penetration tests and vulnerability assessments.</li>
+      </ul>
+    </div>
+
+    <div class="text-section">
+      <h2>Technical Skills:</h2>
+      <ul>
+          <li>Proficient in security testing, penetration testing, and vulnerability management.</li>
+          <li>Mastery of tools and techniques in Ethical Hacking.</li>
+          <li>Expertise in network security and system architecture.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
